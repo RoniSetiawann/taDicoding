@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{  
+    margin: 0;
+    /* margin-left: 1%; */
+    padding: 0;
+    /* border: 1px solid red; */
+ 
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sidebar {
+    flex: 1;
+}
+.sidebar aside {
+ 
+    padding: 40px 0;
+    line-height: 197.5px;
+}
+.content {
+    display: flex;
+}
+img{
+    display: inline-block;
+}
+main {
+    padding: 10px 10px;
+    /* display: flex; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    flex: 3;
+}
+footer {
+    background-color: lightblue;
+    padding: 20px 0;
+}
+.container {
+    margin: 0 auto;
+}
+.navbar .nav-sub a {
+    color: rgb(255, 255, 255);
+}
+.title{  
+    text-align: left;
+    font-family: 'Orelega One', cursive;
+    color: orange;
+    cursor:pointer;
+    font-size: 70px;
+    height: 100px;
+}  
+.title span {
+    font-family: 'Orelega One', cursive;
+    color: blue;
+}
+   /*Properties for Nav-bar*/  
+.navbar{  
+    display:flex;  
+    top:0;  
+    height:10vh;  
+    justify-content: flex-end;  
+    align-items: center;  
+    padding:0px 20px;  
+    background-color: orange;  
+    box-shadow: 2px 2px 2px grey;
+}  
+.nav-sub{  
+    display:flex;  
+
+    justify-content:space-between;  
+}  
+.list-item {  
+    padding:10px;  
+    list-style:none;  
+}  
+.nav-link{  
+    color:inherit;  
+    text-decoration:none;  
+}  
+   /*Properties for Hamburger*/  
+.ham{  
+    display:none;  
+    padding:5px;  
+    cursor:pointer;  
+}  
+.bar1,.bar2,.bar3{  
+    display:block;  
+    width:35px;  
+    height:3px;  
+    margin:5px auto;  
+    background-color:#101010;  
+    transition: 0.4s;  
+}
+
+.garisbawah {
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0px 1px 1px black;
+}
+
+.judulartikel  {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 30px 0;
+    text-align: left;
+}
+
+/* ============================ */
+
+ 
+  
